@@ -13,5 +13,139 @@ body{
     min-height: 300vh;
 }
 .container{
-    margin: 0 auto;
+    width: 100%;
+    margin: 10px auto;
 }
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logoBox {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.header__menuBtn {
+    font-size: 30px;
+    padding: 5px 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    transition: .2s;
+}
+.header__menuBtn:hover{
+    background-color: gainsboro;
+}
+.youtubeImg {
+    width: 150px;
+}
+.header__inputBox {
+}
+.header__input{
+    padding: 5px 10px;
+    border-radius: 14px;
+    border: 1px solid gray;
+    width: 400px;
+}
+.searchBtn {
+    padding: 5px 7px;
+    border-radius: 0px 14px  14px  0px;
+    position: relative;
+    left: -37px;
+    border: 1px solid gray;
+}
+.microphoneBtn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: .2;
+}
+.microphoneBtn:hover{
+    background-color: rgb(198, 195, 195);
+}
+
+.user__box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.createBtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 14px;
+    transition: .2s;
+}
+.createBtn:hover{
+    background-color: rgb(198, 195, 195);
+}
+.bellBtn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: .2;
+    background-color: transparent;
+}
+.bellBtn:hover{
+    background-color: rgb(198, 195, 195);
+}
+.userImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.videos{
+    margin-top: 10px;
+}
+
+.videos__general{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 10px;
+}
+
+.list__links {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.list__item,
+.active{
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 14px;
+    transition: .2s;
+}
+.list__item:hover{
+    background-color: gainsboro;
+}
+.active{
+    background-color: gainsboro;
+}
+.active:hover{
+    background-color: rgb(198, 194, 194);
+}
+
+
+
+
+
+
+
+
+
+.videos__box{
+    background-color: aquamarine;
+    height: 900px;
+}
+
